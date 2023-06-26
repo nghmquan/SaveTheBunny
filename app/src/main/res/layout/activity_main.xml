@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#e7dfc2">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/gametitle"
+        tools:ignore="ContentDescription" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rabbit"
+        android:layout_margin="40dp"
+        android:layout_marginBottom="40dp"
+        tools:ignore="ContentDescription" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:fontFamily="@font/kenney_blocks"
+        android:textSize="32sp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#bb8044"
+        android:onClick="startGame"
+        tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+</LinearLayout>
